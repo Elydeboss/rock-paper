@@ -1,0 +1,64 @@
+.play-btn{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 3px white solid;
+    margin: 20px 5px 10px 20px;
+    background-color: transparent;
+}
+.play-btn:hover{
+    background-color: white;
+    border: 3px black solid;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+.play-btn:active{
+    background-color: rgb(150, 150, 150);
+    border: 3px black solid;
+    cursor: pointer;
+    transition: ease 1.2s;
+}
+
+.sec{
+    background-color: black;
+    color: white;
+}
+.play-icon{
+    height: 80px;
+}
+.play-icon:active{
+    background-color: rgb(150, 150, 150);
+    border: 3px black solid;
+    cursor: pointer;
+    transition: ease 1.2s;
+}
+.js-pick{
+    font-size: large;
+    font-weight: 500;
+}
+.score-btn{
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 35px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px black solid;
+}
+.score-btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border: 2px white solid;
+    transition: ease 1s;
+    box-shadow: 2px 2px 5px white;
+}
+.score-btn:active{
+    background-color: rgb(160, 158, 158);
+    color: white;
+}
+.sub-sec{
+    margin-left: 30px;
+    margin-top: 40px;
+}
