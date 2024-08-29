@@ -53,8 +53,8 @@ const score = JSON.parse(localStorage.getItem('score')) || {
 
             document.querySelector('.js-pick').innerHTML =
              `you
-            <img src="image/${playerMove}-emoji.png" alt="" class="play-icon">
-            <img src="image/${computerMove}-emoji.png" alt="" class="play-icon">
+            <img src="${playerMove}-emoji.png" alt="" class="play-icon">
+            <img src="${computerMove}-emoji.png" alt="" class="play-icon">
             computer`;
             document.querySelector('.js-result').innerHTML = result ;
 
